@@ -1,0 +1,256 @@
+@media screen and (max-width: 575px) {
+  .tablas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .tablas .logo {
+    margin-left: 5%;
+  }
+  .tablas .resultado {
+    width: 50%;
+  }
+  .tablas table {
+    margin: 1% 3%;
+  }
+}
+@media screen and (min-width: 576px) {
+  nav {
+   
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu .nav-link{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .menu .nav-link:hover{
+    color: crimson;
+  }
+
+  nav .menu .navbar-nav {
+    margin-left: 0% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+
+  .resultado p {
+    width: 50%;
+  }
+
+  .tablas {
+    display: flex;
+    align-items: center;
+  }
+  .tablas table {
+    margin: 1% 3%;
+  }
+}
+@media screen and (max-width: 991px) {
+  nav {
+   
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 0% !important;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 0% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+}
+@media screen and (min-width: 992px) {
+  nav {
+   
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 40% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+}
+@media screen and (max-width: 1199px) {
+  nav {
+   
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 40%;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+}
+@media screen and (min-width: 1200px) {
+  nav {
+   
+    
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 55% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: crimson;
+  }
+
+  .bloque1 label {
+    margin-left: 25%;
+  }
+  .bloque1 input {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .bloque2 label {
+    margin-left: 25%;
+  }
+  .bloque2 input {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .potencia label {
+    margin-left: 25%;
+  }
+  .potencia input {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .seleccion label {
+    margin-left: 25%;
+  }
+  .seleccion select {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .calcular {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .resultado {
+    margin-top: 1%;
+    margin-left: 25%;
+    font-weight: bold;
+  }
+
+  #resultado2 {
+    margin-top: 1%;
+    margin-left: 25%;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 576px) {
+  .tabla {
+    width: 100%;
+    height: auto;
+  }
+  .tabla td {
+    border: 1px solid;
+  }
+}
+.tabla td {
+  border: 1px solid;
+}
+
+.noticia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.noticia .contenido {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.noticia .descripcion {
+  margin-bottom: 10px;
+}
+
+.imagen-noticia {
+  height: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
